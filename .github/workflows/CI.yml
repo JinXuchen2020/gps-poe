@@ -1,0 +1,36 @@
+name: Deploy site to pages
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v2
+        with: 
+          node-version: 20.13.1
+      - name: Install dependencies
+        run: |
+          cd ./POEMgr/POEMgr.Web 
+          npm install
+      - name: Build site
+        run: npm run build
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Deploy to GitHub Pages
+      #   run: |
+      #     git config --global user.name "jinxuchen2020"
+      #     git config --global user.email "jinxuchen2020@icloud.com"
+      #     npm run deploy
+
