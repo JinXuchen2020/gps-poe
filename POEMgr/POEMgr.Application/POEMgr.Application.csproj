@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authentication\Authentication.csproj" />
+    <ProjectReference Include="..\POEMgr.Infrastructures\FileService\FileService.csproj" />
+    <ProjectReference Include="..\POEMgr.Infrastructures\LogService\LogService.csproj" />
+    <ProjectReference Include="..\POEMgr.Infrastructures\MailService\MailService.csproj" />
+    <ProjectReference Include="..\POEMgr.Infrastructures\POEMgr.Repository\POEMgr.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

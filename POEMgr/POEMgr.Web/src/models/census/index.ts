@@ -1,0 +1,1 @@
+export type { ICensusQueryOption } from "./ICensusQueryOption";

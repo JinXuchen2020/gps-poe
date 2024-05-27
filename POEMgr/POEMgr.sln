@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POEMgr.Api", "POEMgr.Api\POEMgr.Api.csproj", "{415201A4-6497-442A-BA00-C5F3BE651D55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "POEMgr.Infrastructures", "POEMgr.Infrastructures", "{1C357A71-4F02-4F06-9531-31AA2E7A9308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POEMgr.Application", "POEMgr.Application\POEMgr.Application.csproj", "{7F635C71-0EE2-4DF5-8ED2-64D9CFEC1C97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POEMgr.Domain", "POEMgr.Domain\POEMgr.Domain.csproj", "{F54F7F99-6E83-4C82-84B1-28C48F281174}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileService", "POEMgr.Infrastructures\FileService\FileService.csproj", "{D64225AD-51DA-4DDC-A80D-B1EB41490B4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POEMgr.Repository", "POEMgr.Infrastructures\POEMgr.Repository\POEMgr.Repository.csproj", "{1192CFC0-FDF9-4589-BFD1-72A26DD18CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogService", "POEMgr.Infrastructures\LogService\LogService.csproj", "{3C1E7755-8C10-4DEA-AA90-A9738E2D95C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailService", "POEMgr.Infrastructures\MailService\MailService.csproj", "{E29ADA04-655E-4856-876F-C4F50A16462E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C45A43E5-0939-4521-8D0F-E1F4E0A287A6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{3C74B774-26E4-41E2-B0D2-F0272A279E7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POEMgr.ScheduleJob", "POEMgr.ScheduleJob\POEMgr.ScheduleJob.csproj", "{F08D0609-A525-42FB-BB52-BD5EDF3A2FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POEMgr.EmailAgent", "POEMgr.EmailAgent\POEMgr.EmailAgent.csproj", "{58B75D51-CE30-4C38-B19E-BC4385D84832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415201A4-6497-442A-BA00-C5F3BE651D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415201A4-6497-442A-BA00-C5F3BE651D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415201A4-6497-442A-BA00-C5F3BE651D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415201A4-6497-442A-BA00-C5F3BE651D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F635C71-0EE2-4DF5-8ED2-64D9CFEC1C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F635C71-0EE2-4DF5-8ED2-64D9CFEC1C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F635C71-0EE2-4DF5-8ED2-64D9CFEC1C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F635C71-0EE2-4DF5-8ED2-64D9CFEC1C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54F7F99-6E83-4C82-84B1-28C48F281174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54F7F99-6E83-4C82-84B1-28C48F281174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54F7F99-6E83-4C82-84B1-28C48F281174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54F7F99-6E83-4C82-84B1-28C48F281174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64225AD-51DA-4DDC-A80D-B1EB41490B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64225AD-51DA-4DDC-A80D-B1EB41490B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64225AD-51DA-4DDC-A80D-B1EB41490B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64225AD-51DA-4DDC-A80D-B1EB41490B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1192CFC0-FDF9-4589-BFD1-72A26DD18CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1192CFC0-FDF9-4589-BFD1-72A26DD18CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1192CFC0-FDF9-4589-BFD1-72A26DD18CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1192CFC0-FDF9-4589-BFD1-72A26DD18CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1E7755-8C10-4DEA-AA90-A9738E2D95C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1E7755-8C10-4DEA-AA90-A9738E2D95C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1E7755-8C10-4DEA-AA90-A9738E2D95C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1E7755-8C10-4DEA-AA90-A9738E2D95C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29ADA04-655E-4856-876F-C4F50A16462E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29ADA04-655E-4856-876F-C4F50A16462E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29ADA04-655E-4856-876F-C4F50A16462E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29ADA04-655E-4856-876F-C4F50A16462E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C74B774-26E4-41E2-B0D2-F0272A279E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C74B774-26E4-41E2-B0D2-F0272A279E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C74B774-26E4-41E2-B0D2-F0272A279E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C74B774-26E4-41E2-B0D2-F0272A279E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08D0609-A525-42FB-BB52-BD5EDF3A2FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08D0609-A525-42FB-BB52-BD5EDF3A2FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08D0609-A525-42FB-BB52-BD5EDF3A2FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08D0609-A525-42FB-BB52-BD5EDF3A2FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B75D51-CE30-4C38-B19E-BC4385D84832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B75D51-CE30-4C38-B19E-BC4385D84832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B75D51-CE30-4C38-B19E-BC4385D84832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B75D51-CE30-4C38-B19E-BC4385D84832}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D64225AD-51DA-4DDC-A80D-B1EB41490B4C} = {1C357A71-4F02-4F06-9531-31AA2E7A9308}
+		{1192CFC0-FDF9-4589-BFD1-72A26DD18CE2} = {1C357A71-4F02-4F06-9531-31AA2E7A9308}
+		{3C1E7755-8C10-4DEA-AA90-A9738E2D95C4} = {1C357A71-4F02-4F06-9531-31AA2E7A9308}
+		{E29ADA04-655E-4856-876F-C4F50A16462E} = {1C357A71-4F02-4F06-9531-31AA2E7A9308}
+		{3C74B774-26E4-41E2-B0D2-F0272A279E7A} = {1C357A71-4F02-4F06-9531-31AA2E7A9308}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {343FB54C-A368-4006-9878-BB7DE10FCD4F}
+	EndGlobalSection
+EndGlobal

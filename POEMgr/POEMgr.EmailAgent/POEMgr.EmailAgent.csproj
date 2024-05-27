@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-POEMgr.EmailAgent-41e4c02b-ba6b-4d95-b60e-420448b66d4a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POEMgr.Infrastructures\MailService\MailService.csproj" />
+    <ProjectReference Include="..\POEMgr.Infrastructures\POEMgr.Repository\POEMgr.Repository.csproj" />
+  </ItemGroup>
+</Project>

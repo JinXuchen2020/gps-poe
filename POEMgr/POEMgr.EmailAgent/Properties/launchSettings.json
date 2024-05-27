@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "POEMgr.EmailAgent": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

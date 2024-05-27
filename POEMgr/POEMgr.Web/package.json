@@ -1,0 +1,35 @@
+{
+  "name": "poe-mgr-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@azure/msal-react": "^1.5.1",
+    "@types/mime": "^3.0.1",
+    "@types/uuid": "^9.0.1",
+    "@umijs/plugins": "^4.0.26",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-react": "^1.0.6",
+    "js-file-download": "^0.4.12",
+    "mime": "^3.0.0",
+    "moment": "^2.29.4",
+    "react-highlight-words": "^0.20.0",
+    "react-responsive": "^9.0.2",
+    "umi": "^4.0.30",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.0",
+    "typescript": "^4.1.2"
+  }
+}

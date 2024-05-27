@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POEMgr.Infrastructures\MailService\MailService.csproj" />
+    <ProjectReference Include="..\POEMgr.Infrastructures\POEMgr.Repository\POEMgr.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
