@@ -15,6 +15,7 @@ export default {
   antd: {},
   hash: true,
   base:'/gps-poe/',
+  publicPath: '/gps-poe/',
   locale: {
     default: 'zh-CN',
     baseSeparator: '-',
