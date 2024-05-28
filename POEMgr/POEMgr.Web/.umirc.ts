@@ -14,6 +14,7 @@ export default {
   model: {},
   antd: {},
   hash: true,
+  base:'/gps-poe/',
   locale: {
     default: 'zh-CN',
     baseSeparator: '-',

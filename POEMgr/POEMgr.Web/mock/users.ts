@@ -15,7 +15,7 @@ let users: IUserRspModel[] = [
     partnerId: "6512940",
     partnerEmail: "aabb@hotmail.com",
     partnerName: "Beijing Shouzheng Tongying Software Technology Co., Ltd.",
-    roleName: "普通用户",
+    roleName: "Partner",
     isDisabled: "否",
   },
 ];
