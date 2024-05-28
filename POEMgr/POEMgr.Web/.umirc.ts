@@ -33,7 +33,7 @@ export default {
     'process.env': {
       API_ROOT:
         process.env.NODE_ENV === 'production'
-          ? 'https://gps-poe-api.chinacloudsites.cn/api/'
+          ? '/api/'
           : 'http://localhost:3000/api/',
       CLIENT_ID: "4f305035-d3ee-4c0c-9883-17d877417649",
     }
